@@ -33,6 +33,7 @@ public class LoginTest {
         driver.findElement(By.xpath(".//input[@id='login_email']")).sendKeys("sprint44444@yandex.ru");
         driver.findElement(By.xpath(".//input[@id='password']")).sendKeys("1");
         driver.findElement(By.xpath(".//button[@id='loginformsubmit']")).click();
+        Assertions.assertEquals("https://www.huddle.team/profile/account-info-login", driver.getCurrentUrl());
 
     }
 

@@ -47,9 +47,9 @@ public class ChangeNameTest {
         driver.findElement(By.name("last_name")).sendKeys("NewLastName");
         Thread.sleep(500);
         driver.findElement(By.xpath(".//button[@title='Save Changes']")).click();
+        Assertions.assertEquals("https://www.huddle.team/profile/settings?tab=general-information", driver.getCurrentUrl());
 
     }
-
 
 
 

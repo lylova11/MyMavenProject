@@ -45,6 +45,7 @@ public class SelectNewMusicTest {
         Select dropdown = new Select(driver.findElement(By.xpath(".//select[@data-music-selector-for='conference_moh']")));
         dropdown.selectByVisibleText("Upward Spiral");
         driver.findElement(By.xpath(".//button[@title='Save Changes']")).click();
+        Assertions.assertEquals("https://www.huddle.team/profile/settings?tab=upgrades", driver.getCurrentUrl());
 
     }
 }

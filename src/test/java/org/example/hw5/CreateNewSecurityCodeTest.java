@@ -40,8 +40,9 @@ public class CreateNewSecurityCodeTest {
         driver.findElement(By.xpath(".//a[@title='Edit']")).click();
         Thread.sleep(500);
         driver.findElement(By.xpath(".//a[@href='#security-settings']")).click();
+        driver.findElement(By.xpath(".//input[@name='resource_password']")).clear();
         driver.findElement(By.xpath(".//input[@name='resource_password']")).sendKeys("111111");
         driver.findElement(By.xpath(".//button[@title='Save Changes']")).click();
-
+        Assertions.assertEquals("https://www.huddle.team/profile/settings?tab=security-settings", driver.getCurrentUrl());
     }
 }

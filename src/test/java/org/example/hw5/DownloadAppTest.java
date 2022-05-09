@@ -36,6 +36,7 @@ public class DownloadAppTest {
         driver.findElement(By.xpath(".//a[@href='/downloads'][1]")).click();
         Thread.sleep(500);
         driver.findElement(By.xpath(".//button[@class='btn btn-md margin-bottom-sm btn-blue ellipsis']")).click();
+        Assertions.assertEquals("https://www.huddle.team/downloads", driver.getCurrentUrl());
 
     }
 

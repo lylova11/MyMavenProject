@@ -1,6 +1,8 @@
 package hw6;
 
+import io.qameta.allure.*;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 
@@ -8,6 +10,11 @@ public class CreateSecurityCodeTest extends AbstractTest {
 
 
     @Test
+    @DisplayName("Create New Security Code test")
+    @Description("This test creates new Security code on the Security Settings page")
+    @Link("https://www.huddle.team/profile/settings?tab=security-settings")
+    @Issue("Jira Issue №124")
+    @Severity(SeverityLevel.CRITICAL)
     void changeNameTest() throws InterruptedException {
         webDriver.get("https://huddle.team/signup");
         SignUpPage signUpPage = new SignUpPage(getWebDriver());

@@ -1,12 +1,19 @@
 package hw6;
 
+import io.qameta.allure.*;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 
 public class SelectNewMusicTest extends AbstractTest {
 
     @Test
+    @DisplayName("Select New Custom Hold Music test")
+    @Description("This test selects new Custom Hold Music test")
+    @Link("https://www.huddle.team/profile/settings?tab=upgrades")
+    @Issue("Jira Issue №128")
+    @Severity(SeverityLevel.BLOCKER)
     void changeNameTest() throws InterruptedException {
         webDriver.get("https://huddle.team/signup");
         SignUpPage signUpPage = new SignUpPage(getWebDriver());

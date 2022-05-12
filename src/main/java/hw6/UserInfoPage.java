@@ -9,7 +9,7 @@ public class UserInfoPage extends AbstractPage {
     @FindBy(xpath = ".//input[@name='first_name']")
     private WebElement firstNameField;
 
-    @FindBy(xpath = ".//input[@name='first_name']")
+    @FindBy(xpath = ".//input[@name='last_name']")
     private WebElement lastNameField;
 
     @FindBy(xpath = ".//button[@title='Save Changes']")

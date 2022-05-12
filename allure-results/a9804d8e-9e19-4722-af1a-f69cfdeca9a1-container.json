@@ -1,0 +1,1 @@
+{"uuid":"a9804d8e-9e19-4722-af1a-f69cfdeca9a1","name":"Change Name/Last Name test","children":["a9396a7a-99a3-4f70-9cd7-ef998d90e6bf"],"befores":[],"afters":[{"name":"checkBrowser","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1652190761886,"stop":1652190761911}],"start":1652190729791,"stop":1652190762080}

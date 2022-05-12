@@ -1,0 +1,1 @@
+{"uuid":"57ebab8f-cd5f-4e30-976f-ea173b6dc3c9","name":"Download Windows Desktop App test","children":["31f5be82-3b29-4782-a366-1ee92db8dc58"],"befores":[],"afters":[{"name":"checkBrowser","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1652191116784,"stop":1652191116790}],"start":1652191100562,"stop":1652191116792}

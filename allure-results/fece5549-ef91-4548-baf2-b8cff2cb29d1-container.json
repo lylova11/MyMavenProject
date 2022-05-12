@@ -1,0 +1,1 @@
+{"uuid":"fece5549-ef91-4548-baf2-b8cff2cb29d1","name":"Example test for fail","children":["519bd325-320f-4dbb-8100-974bc7a536a5"],"befores":[],"afters":[{"name":"checkBrowser","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1652191172776,"stop":1652191172782}],"start":1652191142592,"stop":1652191172789}
